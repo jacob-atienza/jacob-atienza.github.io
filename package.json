@@ -2,10 +2,11 @@
 	"name": "jacob-atienza.github.io",
 	"private": true,
 	"version": "0.0.0",
+	"homepage": "https://jacob-atienza.github.io",
 	"type": "module",
 	"scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist",
 		"dev": "vite",
 		"build": "vite build",
 		"lint": "eslint .",
