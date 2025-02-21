@@ -1,16 +1,16 @@
-import { useState, useEffect } from "react";
+import {useState, useEffect} from 'react';
 
 const roles = [
-  "Software Engineer",
-  "Full-stack Developer",
-  "Gamer",
-  "Web Developer",
-  "Musician",
-  "Game Developer",
+  'Software Engineer',
+  'Full-stack Developer',
+  'Gamer',
+  'Web Developer',
+  'Musician',
+  'Game Developer',
 ];
 
 const Typewriter = () => {
-  const [text, setText] = useState("");
+  const [text, setText] = useState('');
   const [index, setIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -27,7 +27,7 @@ const Typewriter = () => {
     } else if (isDeleting && charIndex === 0) {
       // Move to next word after deleting
       setIsDeleting(false);
-      setIndex((prev) => (prev + 1) % roles.length);
+      setIndex(prev => (prev + 1) % roles.length);
     }
 
     const timeout = setTimeout(() => {
