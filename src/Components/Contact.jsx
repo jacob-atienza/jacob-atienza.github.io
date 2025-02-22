@@ -39,7 +39,7 @@ const Contact = () => {
                   Contact Me
                 </h2>
                 <p className="mb-8 lg:mb-16 font-light text-center text-secondary sm:text-xl">
-                  I'm always free to discuss project ideas, job opportunities, or just saying hello!
+                  I'm always free to discuss project ideas, job opportunities, or just say hello!
                 </p>
                 <form className="space-y-8" onSubmit={onSubmit}>
                   <div>

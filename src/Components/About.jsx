@@ -29,7 +29,7 @@ const About = () => {
             <div className="max-w-xl space-y-6">
               <p className="sm:text-xl text-lg text-secondary tracking-wide leading-relaxed">
                 Hey! My name is <span className="text-[rgb(220,208,255)] font-semibold">Jake</span>,
-                and I am a software engineering student with a deep passion for learning new
+                and I am a software engineering student with a strong passion for learning new
                 technologies.
               </p>
 
