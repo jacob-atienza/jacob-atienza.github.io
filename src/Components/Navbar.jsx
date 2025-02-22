@@ -5,7 +5,7 @@ const Navbar = () => {
   const navItems = ['about', 'projects', 'education', 'work', 'contact'];
 
   return (
-    <nav className="sm:px-16 px-3 w-full flex items-center py-5 fixed top-0 z-20 bg-transparent">
+    <nav className="sm:px-16 px-3 w-full flex items-center py-5 fixed top-0 z-20 bg-neutral-800">
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <a className="flex items-center gap-2" href="/">
           <p className="text-white text-[25px] font-bold cursor-pointer">Jake&nbsp;</p>
@@ -36,7 +36,7 @@ const Navbar = () => {
           <div
             className={`${
               isOpen ? 'flex' : 'hidden'
-            } p-6 black-gradient absolute top-20 right-4 min-w-[140px] z-10 rounded-xl`}
+            } p-6 bg-black absolute top-20 right-4 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex flex-col gap-4">
               {navItems.map(item => (
