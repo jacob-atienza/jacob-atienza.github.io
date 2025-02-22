@@ -25,8 +25,8 @@ const Projects = () => {
 
   return (
     <>
-      <span className="absolute -top-20"></span>
-      <section id="projects" className="relative sm:px-10 px-2 sm:py-16 py-10 max-w-7xl mx-auto">
+      <span className="my-40 inline-block" id="projects"></span>
+      <section className="relative sm:px-10 px-2 sm:py-16 py-10 max-w-7xl mx-auto">
         <ScrollAnimation direction="up">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-12">Projects</h2>
         </ScrollAnimation>
