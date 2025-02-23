@@ -18,7 +18,7 @@ const About = () => {
             <div className="relative">
               <img
                 src="/assets/jacob_atienza.jpg"
-                alt="Jake"
+                alt="Jacob Atienza"
                 className="rounded-full object-cover border-4 border-white w-96 h-96 min-w-[256px] min-h-[256px] shadow-lg"
               />
               <div className="absolute inset-0 rounded-full border-4 border-white opacity-20 animate-pulse"></div>
