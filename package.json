@@ -1,29 +1,29 @@
 {
-	"name": "jacob-atienza.github.io",
-	"private": true,
-	"version": "0.0.0",
-	"homepage": "https://jacob-atienza.github.io",
-	"type": "module",
-	"scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist",
-		"dev": "vite",
-		"build": "vite build",
-		"lint": "eslint .",
-		"preview": "vite preview"
-	},
-	"dependencies": {
-		"framer-motion": "^12.4.7",
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0"
-	},
-	"devDependencies": {
-		"@vitejs/plugin-react": "^4.3.4",
-		"autoprefixer": "^10.4.17",
-		"eslint": "^9.19.0",
-		"gh-pages": "^6.3.0",
-		"postcss": "^8.4.35",
-		"tailwindcss": "^3.4.1",
-		"vite": "^6.1.0"
-	}
+  "name": "jacobatienza.me",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://jacobatienza.me",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^12.4.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^9.19.0",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^6.1.0"
+  }
 }
