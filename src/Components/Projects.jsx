@@ -4,6 +4,25 @@ import Cards from "./Card";
 const Projects = () => {
   const projects = [
     {
+      projectName: "MediScribe AI",
+      projectLink:
+        "https://devpost.com/software/mediscribe-zby95c?ref_content=my-projects-tab&ref_feature=my_projects",
+      projectDescription:
+        "Winner/1st place at IT Club Hackathon 2.0 (80+ participants)." +
+        " MediScribe AI is a web portal that automates medical documentation by recording and transcribing consultations," +
+        " then uses Gemini AI to generate structured reports. Built with React and FastAPI, it securely stores reports in a PostgreSQL database for easy access by doctors and patients.",
+      projectTechnologies: [
+        "OpenAI Whisper",
+        "Googles Gemini AI",
+        "React",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+      ],
+      projectImage: "assets/MediScribeAI.png",
+      githubLink: "https://github.com/DylanShouldice/IT-Hackathon",
+    },
+    {
       projectName: "Pokemon TCGP Pack Simulator",
       projectLink: "https://poke-packer.onrender.com/",
       projectDescription:
