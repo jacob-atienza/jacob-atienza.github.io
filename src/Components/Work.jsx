@@ -8,7 +8,8 @@ const Work = () => {
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-12 text-white">
             Work Experience
           </h2>
-          <div className="bg-neutral-700/30 rounded-xl p-8 shadow-lg">
+          <div className="bg-neutral-700/30 rounded-xl p-8 shadow-lg mb-10">
+            <h3 className="text-2xl font-bold text-white mb-6">Smart Centre</h3>
             <ol className="relative border-s border-neutral-600">
               <div className="absolute w-3 h-3 bg-neutral-500 rounded-full mt-1.5 -start-1.5 border border-neutral-700"></div>
               <ScrollAnimation direction="left">
@@ -17,9 +18,9 @@ const Work = () => {
                   <time className="mb-1 text-sm font-normal text-secondary">
                     September 2025 - Present
                   </time>
-                  <h3 className="text-lg font-semibold text-white">
+                  <h4 className="text-lg font-semibold text-white">
                     Student Researcher - Software Developer Co-Op
-                  </h3>
+                  </h4>
                   <p className="text-base font-normal text-secondary">
                     Prototyping a 3D VR training simulation in Unity C# with
                     modular architecture, enabling rapid addition of future
@@ -35,9 +36,9 @@ const Work = () => {
                   <time className="mb-1 text-sm font-normal text-secondary">
                     May 2025 - August 2025
                   </time>
-                  <h3 className="text-lg font-semibold text-white">
+                  <h4 className="text-lg font-semibold text-white">
                     Student Researcher - Software Developer Co-Op
-                  </h3>
+                  </h4>
                   <p className="text-base font-normal text-secondary">
                     Delivered an AI-powered quotation system combining local LLM
                     RAG pipelines and API integrations. Built a full-stack
@@ -48,15 +49,21 @@ const Work = () => {
                   </p>
                 </li>
               </ScrollAnimation>
+            </ol>
+          </div>
+          <div className="bg-neutral-700/30 rounded-xl p-8 shadow-lg">
+            <h3 className="text-2xl font-bold text-white mb-6">Chervin</h3>
+            <ol className="relative border-s border-neutral-600">
+              <div className="absolute w-3 h-3 bg-neutral-500 rounded-full mt-1.5 -start-1.5 border border-neutral-700"></div>
               <ScrollAnimation direction="left">
                 <li className="mb-10 ms-4">
                   <div className="absolute w-3 h-3 bg-neutral-500 rounded-full mt-1.5 -start-1.5 border border-neutral-700"></div>
                   <time className="mb-1 text-sm font-normal text-secondary">
                     June 2022
                   </time>
-                  <h3 className="text-lg font-semibold text-white">
+                  <h4 className="text-lg font-semibold text-white">
                     General Laborer - Hardware Department
-                  </h3>
+                  </h4>
                   <p className="text-base font-normal text-secondary">
                     Assembled hardware according to blueprint design
                     specifications. Wrapped cabinet parts ensuring safe delivery
@@ -70,9 +77,9 @@ const Work = () => {
                   <time className="mb-1 text-sm font-normal text-secondary">
                     April 2023
                   </time>
-                  <h3 className="text-lg font-semibold text-white">
+                  <h4 className="text-lg font-semibold text-white">
                     Primer Sander
-                  </h3>
+                  </h4>
                   <p className="text-base font-normal text-secondary">
                     Handled, sanded and inspected custom, high end cabinetry.
                     Required extreme attention to detail and precision to ensure
@@ -86,9 +93,9 @@ const Work = () => {
                   <time className="mb-1 text-sm font-normal text-secondary">
                     May 2023 - December 2024
                   </time>
-                  <h3 className="text-lg font-semibold text-white">
+                  <h4 className="text-lg font-semibold text-white">
                     Computer Numerical Control Machinist
-                  </h3>
+                  </h4>
                   <p className="text-base font-normal text-secondary">
                     Managed CNC machine production schedule, ensuring timely
                     task completion. Increased sheet count production by 15%
