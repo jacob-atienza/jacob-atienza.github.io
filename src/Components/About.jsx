@@ -1,4 +1,4 @@
-import ScrollAnimation from './ScrollAnimation';
+import ScrollAnimation from "./ScrollAnimation";
 
 const About = () => {
   return (
@@ -28,22 +28,28 @@ const About = () => {
           <ScrollAnimation direction="right">
             <div className="max-w-xl space-y-6">
               <p className="sm:text-xl text-lg text-secondary tracking-wide leading-relaxed">
-                Hey! My name is <span className="text-[rgb(220,208,255)] font-semibold">Jake</span>,
-                and I am a software engineering student with a strong passion for learning new
-                technologies.
+                Hey! My name is{" "}
+                <span className="text-[rgb(220,208,255)] font-semibold">
+                  Jake
+                </span>
+                , and I am a software engineering student with a love for
+                learning new technologies.
               </p>
 
               <div className="space-y-4">
                 <div className="bg-neutral-700/30 p-6 rounded-lg">
-                  <h4 className="text-white text-lg font-semibold mb-2">Hobbies</h4>
+                  <h4 className="text-white text-lg font-semibold mb-2">
+                    Hobbies
+                  </h4>
                   <div className="flex flex-wrap gap-3">
                     {[
-                      'Gaming',
-                      'Guitar',
-                      'Coding',
-                      'Time with Friends & Family',
-                      'Skateboarding',
-                    ].map(hobby => (
+                      "Climbing",
+                      "Gaming",
+                      "Guitar",
+                      "Coding",
+                      "Time with Friends & Family",
+                      "Skateboarding",
+                    ].map((hobby) => (
                       <span
                         key={hobby}
                         className="bg-neutral-600/50 px-3 py-1 rounded-full text-sm"
@@ -55,23 +61,24 @@ const About = () => {
                 </div>
 
                 <div className="bg-neutral-700/30 p-6 rounded-lg">
-                  <h4 className="text-white text-lg font-semibold mb-2">Technical Skills</h4>
+                  <h4 className="text-white text-lg font-semibold mb-2">
+                    Technical Skills
+                  </h4>
                   <div className="space-y-3">
                     <div>
                       <p className="text-secondary mb-2">Languages</p>
                       <div className="flex flex-wrap gap-2">
                         {[
-                          'C',
-                          'C++',
-                          'C#',
-                          'Java',
-                          'Python',
-                          'JavaScript',
-                          'PHP',
-                          'SQL',
-                          'HTML',
-                          'CSS',
-                        ].map(lang => (
+                          "Python",
+                          "JavaScript",
+                          "TypeScript",
+                          "C#",
+                          "Java",
+                          "C++",
+                          "C",
+                          "PHP",
+                          "SQL",
+                        ].map((lang) => (
                           <span
                             key={lang}
                             className="bg-neutral-600/50 px-3 py-1 rounded-full text-sm"
@@ -82,19 +89,21 @@ const About = () => {
                       </div>
                     </div>
                     <div>
-                      <p className="text-secondary mb-2">Frameworks & Libraries</p>
+                      <p className="text-secondary mb-2">
+                        Frameworks & Libraries
+                      </p>
                       <div className="flex flex-wrap gap-2">
                         {[
-                          'React',
-                          'Node.js',
-                          'Express',
-                          'ASP.NET',
-                          'jQuery',
-                          'pandas',
-                          'NumPy',
-                          'Bootstrap',
-                          'Tailwind',
-                        ].map(tech => (
+                          "React",
+                          "Node.js",
+                          "Express",
+                          "ASP.NET",
+                          "jQuery",
+                          "pandas",
+                          "NumPy",
+                          "Bootstrap",
+                          "Tailwind",
+                        ].map((tech) => (
                           <span
                             key={tech}
                             className="bg-neutral-600/50 px-3 py-1 rounded-full text-sm"
