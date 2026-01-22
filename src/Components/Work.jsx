@@ -9,14 +9,35 @@ const Work = () => {
             Work Experience
           </h2>
           <div className="bg-neutral-700/30 rounded-xl p-8 shadow-lg mb-10">
-            <h3 className="text-2xl font-bold text-white mb-6">Smart Centre</h3>
+            <h3 className="text-2xl font-bold text-white mb-6">Sera4</h3>
             <ol className="relative border-s border-neutral-600">
               <div className="absolute w-3 h-3 bg-neutral-500 rounded-full mt-1.5 -start-1.5 border border-neutral-700"></div>
               <ScrollAnimation direction="left">
                 <li className="ms-4">
                   <div className="absolute w-3 h-3 bg-neutral-500 rounded-full mt-1.5 -start-1.5 border border-neutral-700"></div>
                   <time className="mb-1 text-sm font-normal text-secondary">
-                    September 2025 - Present
+                    January 2026 - Present
+                  </time>
+                  <h4 className="text-lg font-semibold text-white">
+                    Mobile Developer Co-Op
+                  </h4>
+                  <p className="text-base font-normal text-secondary">
+                    Working on developing features for both IOS and Android
+                    applications
+                  </p>
+                </li>
+              </ScrollAnimation>
+            </ol>
+          </div>
+          <div className="bg-neutral-700/30 rounded-xl p-8 shadow-lg mb-10">
+            <h3 className="text-2xl font-bold text-white mb-6">Smart Centre</h3>
+            <ol className="relative border-s border-neutral-600">
+              <div className="absolute w-3 h-3 bg-neutral-500 rounded-full mt-1.5 -start-1.5 border border-neutral-700"></div>
+              <ScrollAnimation direction="left">
+                <li className="ms-4 mb-10">
+                  <div className="absolute w-3 h-3 bg-neutral-500 rounded-full mt-1.5 -start-1.5 border border-neutral-700"></div>
+                  <time className="mb-1 text-sm font-normal text-secondary">
+                    September 2025 - December 2025
                   </time>
                   <h4 className="text-lg font-semibold text-white">
                     Student Researcher - Software Developer Co-Op

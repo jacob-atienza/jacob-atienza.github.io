@@ -17,7 +17,7 @@ const About = () => {
           <ScrollAnimation direction="left">
             <div className="relative">
               <img
-                src="/assets/jacob_atienza.jpg"
+                src="/assets/jacob_atienza_profile_pic.jpg"
                 alt="Jacob Atienza"
                 className="rounded-full object-cover border-4 border-white w-96 h-96 min-w-[256px] min-h-[256px] shadow-lg"
               />
@@ -45,6 +45,7 @@ const About = () => {
                     {[
                       "Climbing",
                       "Gaming",
+                      "Snowboarding",
                       "Guitar",
                       "Coding",
                       "Time with Friends & Family",
